@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+
+    <head>
+        <meta charset="utf-8">
+        <title>Formulario de registro</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+        <h1>FORMULARIO REGISTRO COMPUTHECNIC PERU</h1>
+        <form action="registrar.php" method="post" class="form-register">
+        <h2 class="form__titulo">Crear una cuenta</h2>
+        <div class="contenedor-inputs">
+            <input type="text" name="nombre"
+                   placeholder="Nombre" class="input-48" required>
+            <input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+            <input type="email" name="correo" placeholder="correo" class="input-100" required>
+            <input type="text" name="usuario" placeholder="usuario" class="input-48" required>
+            <input type="password" name="clave" placeholder="contraseña" class="input-48" required>
+            <input type="text" name="telefono" placeholder="telefono" class=input-100 required>
+            <input type="submit" value="registrar" class="btn-enviar" required>
+            <p class="form__link">¿ya tiene una cuenta? <a href="#">ingresa aqui</a></p>
+            </div>
+        </form>
+    </body>
+</html>
+            
